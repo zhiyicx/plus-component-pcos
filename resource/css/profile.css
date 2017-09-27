@@ -1,0 +1,601 @@
+/*个人主页顶部*/
+
+.contribute-btn {
+    float: right;
+    margin-top: 21px;
+    border-radius: 18px;
+    padding: 7px 23px;
+}
+
+.reward-btn {
+    float: right;
+    margin-top: 24px;
+    border-radius: 18px;
+    padding: 7px 23px;
+    border: 1px solid #59B6D7;
+}
+
+.reward-btn > svg ,
+.contribute-btn > svg {
+    margin-right: 6px;
+}
+
+.follow-box {
+    line-height: 80px;
+    float: right;
+}
+
+.follow-box > div {
+    line-height: 36px;
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    background: #fff;
+}
+
+.follow-box > div:hover {
+    color: #59b6d7;
+    border-color: #59b6d7;
+}
+
+.follow-box .followed {
+    color: #ccc;
+    border: 1px solid #ededed;
+}
+
+.follow-box .followed:hover {
+    color: #ccc;
+    border: 1px solid #ededed;
+}
+
+.profile_top {
+    position: relative;
+    width: 100%;
+    background: #fff;
+}
+
+.profile_top_cover {
+    overflow: hidden;
+    width: 1080px;
+    height: 456px;
+}
+
+.profile_top_cover img {
+    width: 100%;
+}
+
+.change_cover {
+    line-height: 36px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 30px;
+    display: block;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    transition: all .3s;
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.change_cover:hover {
+    border-color: #59b6d7;
+    background: rgba(89, 182, 215, .8);
+}
+
+.profile_nav {
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.profile_nav .profile_nav_list {
+    font-size: 0;
+    float: left;
+}
+
+.profile_nav .profile_nav_list li {
+    font-size: 18px;
+    line-height: 78px;
+    display: inline-block;
+    height: 80px;
+    margin-left: 60px;
+    transition: all .1s;
+    color: #666;
+    border-bottom: 2px solid transparent;
+}
+
+.profile_nav .profile_nav_list li:hover,
+.profile_nav .profile_nav_list li.active {
+    color: #6eb5d3;
+    border-bottom-color: #6eb5d3;
+}
+
+.profile_nav .profile_nav_list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+}
+
+.profile_nav .profile_nav_btn {
+    font-size: 14px;
+    line-height: 36px;
+    display: block;
+    float: right;
+    width: 100px;
+    height: 36px;
+    margin-top: 22px;
+    text-align: center;
+    color: #fff;
+    border-radius: 18px;
+    background-color: #6eb5d3;
+}
+
+.profile_nav .profile_nav_btn:before {
+    display: inline-block;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    margin-right: 9px;
+    content: '';
+    vertical-align: middle;
+    background-image: url(./img/to_post_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+}
+
+.profile_top_info {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    height: 220px;
+    padding: 30px;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .4) 100%);
+}
+
+.profile_top_img {
+    width: 160px;
+    height: 160px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.profile_top_img .role-icon {
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.profile_top_info_d {
+    float: left;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.profile_top_user a {
+    font-size: 36px;
+    color: #fff;
+}
+
+.profile_top_user span {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.profile_top_user span::before {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    content: '';
+    vertical-align: baseline;
+    background-image: url(./img/location_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px;
+}
+
+.profile_top_bio,
+.profile_top_tags,
+.profile_top_user,
+.profile_logo_icon {
+    font-size: 16px;
+    margin: 0 0 15px;
+    width: 800px;
+}
+
+.profile_top_tags span {
+    font-size: 12px;
+    line-height: 1;
+    display: inline-block;
+    padding: 5px 7px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.profile_top_tags span + span {
+    margin-left: 10px;
+}
+
+.profile_logo_icon span {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.profile_logo_icon span .tag_icon {
+    display: inline-block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    margin-right: -6px;
+    margin-bottom: -4px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.profile_body {
+    margin-top: 30px;
+}
+
+.profile_body .left_box {
+    float: left;
+    width: 150px;
+    padding-top: 28px;
+}
+
+.profile_body .center_box {
+    float: left;
+    width: 721px;
+    margin-left: -56px;
+    padding-left: 85px;
+}
+
+.profile_body .right_box {
+    float: right;
+    width: 235px;
+}
+
+.profile_body .collect_box {
+    float: left;
+    width: 818px;
+}
+
+/*  分享列表  */
+.feed_content {
+    padding: 22px 42px;
+    background: white;
+}
+
+.feed_menu > a {
+    color: #999;
+    margin-right: 20px;
+}
+
+.feed_menu > a.active {
+    color: #333;
+}
+
+.center_box .feed_box {
+    margin-left: -136px;
+    padding-bottom: 10px;
+    padding-left: 136px;
+    border-left: 1px solid #ccc;
+}
+
+.center_box .feed_item {
+    position: relative;
+}
+
+.center_box .feed_item:before {
+    position: absolute;
+    left: -163px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: '';
+    color: #fff;
+    border-radius: 50%;
+    background: #6eb5d3;
+}
+
+.collect_box .feed_time{
+    display: none;
+}
+
+.collect_box .collect_time {
+    float: right;
+    font-size: 14px;
+    margin-top: 17px;
+    color: #ccc;
+}
+
+
+.feed_item .uname {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.feed_time {
+    width: 50px;
+    line-height: 38px;
+    position: absolute;
+    top: 0;
+    left: -163px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.feed_time .profile_time {
+    font-size: 18px;
+    color: #fff;
+    writing-mode: horizontal-tb;
+}
+
+.feed_text {
+    font-size: 14px;
+    line-height: 24px;
+    display: -webkit-box;
+    overflow: hidden;
+    margin: 15px 0;
+    word-break: break-word;
+    color: #666;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* 问答列表  */
+
+.qa-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.qa-item .qa-toolbar .ctime {
+    line-height: 30px;
+}
+
+.qa-item .qa-toolbar .follow,
+.qa-item .qa-toolbar .answer,
+.qa-item .qa-toolbar .mony{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 50px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+/* 多图片样式 */
+
+.image_box {
+    position: relative;
+    left: -1px;
+    overflow: hidden;
+    margin-bottom: 2px;
+    padding: 0 2px;
+}
+
+.image_box .per_image {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image_box:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+}
+
+.feed_bottom {
+    margin-top: 20px;
+}
+
+.feed_datas {
+    position: relative;
+    clear: both;
+}
+
+.feed_datas .digg,
+.feed_datas .comment,
+.feed_datas .collect,
+.feed_datas .view {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 50px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.feed_datas svg {
+    font-size: 24px;
+    vertical-align: -7px;
+}
+
+.feed_datas .options {
+    float: right;
+    width: 30px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.feed_datas .options_div {
+    position: absolute;
+    z-index: 99;
+    top: 30px;
+    right: -50px;
+    display: none;
+    width: 125px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 22px #e2e0e0;
+}
+
+.feed_datas .triangle {
+    position: absolute;
+    top: -14px;
+    left: 47px;
+}
+
+.feed_datas .options_div > ul {
+    padding: 20px 0;
+}
+
+.feed_datas .options_div li {
+    margin-top: 18px;
+    padding-left: 20px;
+}
+
+.feed_datas .options_div > ul a {
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    width: 100%;
+    height: 24px;
+    color: #666;
+}
+
+.feed_datas .options_div > ul a:hover {
+    color: #59b6d7;
+}
+
+.feed_datas .options_div .icon {
+    margin-right: 12px;
+}
+
+.feed_datas .options_div .act {
+    color: #59b6d7;
+}
+
+.feed_line {
+    width: 100%;
+    height: 6px;
+    margin: 30px auto;
+    background: #f3f6f7;
+}
+
+
+/*个人中心文章*/
+
+.artic_left {
+    line-height: 60px;
+    position: absolute;
+    top: -22px;
+    left: -40px;
+    display: inline-block;
+    width: 332px;
+    height: 60px;
+    padding: 0 20px;
+    text-indent: 20px;
+}
+
+.artic_left > a {
+    margin-right: 15px;
+}
+
+.dy_tab {
+    position: relative;
+    height: 38px;
+}
+
+.dy_tab_title {
+    width: 50%;
+    text-align: center;
+}
+
+.dy_tab_title_feed {
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+}
+
+.dy_tab_title_article {
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.border_left {
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.border_left_no {
+    border: none !important;
+}
+
+.article_box{
+    position: relative;
+}
+
+.article_box img {
+    width: 100% !important;
+    height: 100%;
+    max-height: 400px;
+}
+
+.article_box .article_desc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 20px;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .4) 100%);
+}
+
+.article_desc .title{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.article_desc .subject{
+    line-height: 24px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*付费图片*/
+.locked_image {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.locked_image .lock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+.feed_image_pay{
+    width: 100%;
+}

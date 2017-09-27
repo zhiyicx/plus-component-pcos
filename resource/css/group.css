@@ -1,0 +1,312 @@
+.group_container {
+    padding: 20px 40px;
+    background: white;
+}
+
+.group_navbar {
+    border-bottom: 1px solid #ededed;
+}
+
+.group_navbar > a {
+    display: inline-block;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #777;
+}
+
+.group_navbar > a.active {
+    color: #444;
+}
+
+.group_item {
+    float: left;
+    width: 352px;
+    height: 140px;
+    margin-top: 30px;
+    margin-right: 30px;
+    background: #f7f8f8;
+}
+
+.group_item_right {
+    margin-right: 0px;
+}
+
+.item_bar {
+    float: left;
+    width: 2%;
+    height: 140px;
+    margin-top: 15px;
+}
+.group_item > dl {
+	margin: 10px;
+}
+
+.group_item dt {
+	float: left;
+}
+
+.group_item dd {
+	padding: 10px 0 10px 95px;
+}
+
+.group_item .tool span{
+	font-size: 14px;
+	color: #777;
+	margin-right: 8px;
+	line-height: 33px;
+}
+
+.group_item .join {
+	margin-top: 20px;
+}
+
+.group_item .join > button {
+    border: 1px solid #59b6d7;
+    border-radius: 12px;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #59b6d7;
+    background-color: white;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.group_item .join .joined {
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+
+/**************** 圈子详情 ********************/
+.group-cont {
+    float: left;
+    width: 815px;
+    margin-right: 30px;
+}
+
+/*动态发布*/
+.feed_post .post_textarea {
+    width: 100% !important;
+}
+
+.group-info .info {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px 40px;
+    border-radius: 3px;
+    background: white;
+}
+
+.group-info .info-title {
+    font-size: 12px;
+    color: #999;
+    height: 30px;
+}
+
+.group-info .info-content {
+    width: 100%;
+    min-height: 120px;
+}
+
+.group-info .content-left {
+    width: 120px;
+    height: 120px;
+    margin: 0 20px 0 0;
+    float: left;
+}
+
+.group-info .content-right {
+    color: #9F9F9F;
+    margin-left: 140px;
+    min-height: 120px;
+}
+
+.group-info .group-title {
+    font-size: 20px;
+    height: 35px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #484848;
+}
+
+.group-info .group-intro {
+    min-height: 55px;
+    line-height: 20px;
+}
+
+/* 创建圈子动态 */
+.feed_post .post_textarea {
+    width: 100% !important;
+}
+.feed_post .post_text {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #ededed;
+    outline: none;
+    background: #f3f6f7;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/*--------------------------*/
+.tool span{
+    font-size: 14px;
+    color: #777;
+    margin-right: 8px;
+    line-height: 33px;
+}
+
+.join {
+    margin-top: 20px;
+}
+
+.join > button {
+    border: 1px solid #59b6d7;
+    border-radius: 12px;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #59b6d7;
+    background-color: white;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.join .joined {
+    border: 1px solid #ccc;
+    color: #ccc;
+}
+/*--------------------------*/
+
+
+
+
+.group-info .group-foot {
+
+}
+
+.group-info .foot-count {
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.group-info .foot-count .count {
+    margin-right: 10px;
+}
+
+.group-info .group-join {
+    border: 1px solid #ccc;
+    padding: 3px 12px;
+    border-radius: 20px;
+    float: right;
+    cursor: pointer;
+}
+.group-info .add-join {
+    color: #59b6d7;
+    border-color: #59b6d7;
+}
+
+.group_item .title {
+    color: #000;
+}
+
+.feed_content .post-title {
+    height: 30px;
+    line-height: 54px;
+    font-size: 16px;
+}
+
+.feed_content .post-title a {
+    color: #59b6d7;
+}
+
+/* 圈子动态详情 */
+.feed_left .post-title {
+    font-size: 30px;
+    color: #333;
+    line-height: 30px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* 热门圈子 */
+
+.hot-groups {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 15px 0;
+    border: 1px solid #ededed;
+    background-color: #fff;
+}
+
+.hot-groups .title {
+    font-size: 18px;
+    padding: 20px 0 15px;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #ededed;
+}
+.hot-groups .hot-groups-list {
+    font-size: 14px;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.hot-groups .hot-groups-list>li {
+    height: 65px;
+}
+
+.hot-groups .fans-span1 {
+    display: inline-block;
+    width: 30px;
+    padding: 10px 0;
+}
+
+.hot-groups .fans-span1 span {
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    color: #333;
+    border-radius: 3px;
+}
+
+.hot-groups .fans-span1 span.grey {
+    color: #fff;
+    background: #ccc;
+}
+
+.hot-groups .fans-span1 span.blue {
+    color: #fff;
+    background: #59b6d7;
+}
+
+.hot-groups-list .hot-group-title {
+    color: #000;
+}
+
+.hot-groups-list .hot-content {
+    width: 175px;
+    display: inline;
+}
+
+.hot-groups-list .hot-group-count {
+    margin-left: 34px;
+    color: #B3B3B3;
+}
+
+.hot-groups-list .hot-group-count .count {
+    width: 45%;
+    float: left;
+}
+
+.hot-groups-list .no-groups {
+    font-size: 14px;
+    padding: 15px 0 5px 0;
+    text-align: center;
+    color: #999;
+}

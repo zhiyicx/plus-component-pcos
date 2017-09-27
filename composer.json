@@ -1,0 +1,31 @@
+{
+  "name": "zhiyicx/plus-component-pc",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Foreach",
+      "email": "missu082500@163.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "classmap": ["database/"],
+    "files": ["src/helpers.php"],
+    "psr-4": {
+      "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentPc\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentPc\\PcServiceProvider"
+        ]
+    }
+  },
+  "require": {
+    "overtrue/easy-sms": "^0.0.9",
+    "overtrue/socialite": "^1.3",
+    "zhiyicx/plus-installer": "^1.0",
+    "gregwar/captcha": "1.*"
+  }
+}
